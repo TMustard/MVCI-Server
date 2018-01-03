@@ -13,6 +13,6 @@ combos = [{
     "combo1": "Midscreen BnB - stuff"
   },
   {
-    "name": "Ultron",
+    "name": "Nova",
     "combo1": "stuff - stuff"
 }]

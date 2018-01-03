@@ -7,6 +7,6 @@ const bodyParser = require('body-parser')
 app.use(cors())
 app.use(bodyParser.json())
 
-app.get('/', (req, res) => res.json(moves))
+app.get('/', (req, res) => res.json(data))
 
 app.listen(process.env.PORT || 3000, () => console.log('listening'))
