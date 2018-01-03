@@ -1,14 +1,18 @@
-module.exports = {
-
-    data: [{
-      "id": 1,
-      "name": "Ultron"
+moves = [{
+      "name": "Ultron",
+      "move1": "Melt Blast - stuff"
     },
     {
-      "id": 2,
-      "name": "Nova"
+      "name": "Nova",
+      "move1": "Move - Move description"
     }
 ]
 
-
-}
+combos = [{
+    "name": "Ultron",
+    "combo1": "Midscreen BnB - stuff"
+  },
+  {
+    "name": "Ultron",
+    "combo1": "stuff - stuff"
+}]

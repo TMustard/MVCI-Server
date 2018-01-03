@@ -1,9 +1,11 @@
 const express = require('express')
 const cors = require('cors')
-const moves = require('./data/moves')
+const data = require('./data')
 const app = express()
+const bodyParser = require('body-parser')
 
 app.use(cors())
+app.use(bodyParser.json())
 
 app.get('/', (req, res) => res.json(moves))
 
