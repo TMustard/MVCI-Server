@@ -5,6 +5,22 @@ moves = [{
     {
       "name": "Nova",
       "move1": "Move - Move description"
+    },
+    {
+      "name": "Dormammu",
+      "move1": "Move"
+    },
+    {
+      "name": "Dr. Strange",
+      "move1": "Move"
+    },
+    {
+      "name": "Ghost Rider",
+      "move1": "Move"
+    },
+    {
+    "name": "Hulk",
+    "move1": "Move"
     }
 ]
 
