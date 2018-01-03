@@ -1,3 +1,8 @@
+module.exports = {
+  moves,
+  combos
+}
+
 moves = [{
       "name": "Ultron",
       "move1": "Melt Blast - stuff"
