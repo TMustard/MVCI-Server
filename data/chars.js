@@ -1,8 +1,8 @@
 
 
 var moves = [{
-      "name": "Ultron",
-      "move1": "Melt Blast - stuff"
+      name: "Ultron",
+      move1: "Melt Blast - stuff"
     },
     {
       "name": "Nova",
