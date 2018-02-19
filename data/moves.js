@@ -1,39 +1,42 @@
-module.exports = {
-  moves,
-  combos
-}
-
-moves = [{
-      "name": "Ultron",
-      "move1": "Melt Blast - stuff"
-    },
-    {
-      "name": "Nova",
-      "move1": "Move - Move description"
-    },
-    {
-      "name": "Dormammu",
-      "move1": "Move"
-    },
-    {
-      "name": "Dr. Strange",
-      "move1": "Move"
-    },
-    {
-      "name": "Ghost Rider",
-      "move1": "Move"
-    },
-    {
-    "name": "Hulk",
-    "move1": "Move"
-    }
-]
-
-combos = [{
-    "name": "Ultron",
-    "combo1": "Midscreen BnB - stuff"
+var moves = [
+  {
+    name: "Ultron",
+    moves: ["yo                    ", "sup"]
   },
   {
-    "name": "Nova",
-    "combo1": "stuff - stuff"
-}]
+    name: "Nova",
+    moves: [
+      "Aerial Uppercut- (in air) Forward + LP",
+      "Backstep Kick- (on hit) HK, HK",
+      "Moon Tracer Kick- Forward + HK",
+      "Nova Slam- Forward + HP",
+      "Shooting Punch- Down + Forward + LP",
+      "Energy Javelin- Down, Down, P",
+      "Centurion Rush- (air ok) QCB, K",
+      "Flight- (air ok) QCB, KK",
+      "Gravimetric Blaster (1 bar)- (air ok) QCF, PP",
+      "Super Nova (1 bar)- (air ok) QCB, PP",
+      "Level 3 Hyper (3 bars)- QCF, KK"
+    ]
+  },
+  {
+    name: "Dormammu",
+    moves: ["Move"]
+  },
+  {
+    name: "Dr. Strange",
+    moves: ["Move"]
+  },
+  {
+    name: "Ghost Rider",
+    moves: ["Move"]
+  },
+  {
+    name: "Hulk",
+    moves: ["Move"]
+  }
+];
+
+module.exports = {
+  moves
+};
